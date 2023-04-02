@@ -44,6 +44,7 @@ label {
   border: 1px solid #b5b7c4;
   border-radius: 5px;
   outline: none;
+  background-color: transparent;
 }
 .date-input {
   font-size: 15px;
@@ -59,6 +60,7 @@ label {
   color: #171f46;
   border-radius: 5px;
   outline: none;
+  background-color: transparent;
 }
 .add-btn {
   background-color: #8b5cf6;
