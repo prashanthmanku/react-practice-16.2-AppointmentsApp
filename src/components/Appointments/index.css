@@ -1,0 +1,140 @@
+/* Write your CSS here */
+.app-bg-container {
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  min-height: 100vh;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.card-container {
+  background-color: #ffffff;
+  width: 90%;
+  max-width: 1000px;
+  padding: 20px;
+  border-radius: 10px;
+}
+form {
+  width: 100%;
+}
+
+.main-heading {
+  color: #171f46;
+  font-size: 25px;
+  font-weight: 500;
+}
+label {
+  color: #b5b7c4;
+  font-size: 17px;
+  font-weight: 400;
+}
+.title-input {
+  font-size: 15px;
+  font-weight: 400;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-left: 11px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 300px;
+  color: #171f46;
+  border: 1px solid #b5b7c4;
+  border-radius: 5px;
+  outline: none;
+}
+.date-input {
+  font-size: 15px;
+  font-weight: 400;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-left: 11px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 300px;
+  border: 1px solid #b5b7c4;
+  color: #171f46;
+  border-radius: 5px;
+  outline: none;
+}
+.add-btn {
+  background-color: #8b5cf6;
+  font-size: 17px;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.appointments-img {
+  width: 40%;
+  display: none;
+}
+.Appointments-container {
+  border-top: 1px solid #b5b7c4;
+  margin-top: 25px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.heading-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-heading-2 {
+  color: #171f46;
+  font-size: 21px;
+  font-weight: 500;
+}
+.starred-button {
+  cursor: pointer;
+  outline: none;
+
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 500;
+}
+.active-starred-btn {
+  color: #ffffff;
+  background-color: #8b5cf6;
+  border: none;
+}
+.inactive-starred-btn {
+  color: #8b5cf6;
+  border: 1px solid #8b5cf6;
+  background-color: transparent;
+}
+.appointments-lists-container {
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+@media screen and (min-width: 768px) {
+  .inputs-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .appointments-img {
+    display: flex;
+  }
+  .body {
+    width: 80%;
+    margin: auto;
+  }
+  .card-container {
+    padding: 0px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+}

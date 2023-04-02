@@ -1,0 +1,54 @@
+/* Write your CSS here */
+.list-item-container {
+  border: 1px solid #b5b7c4;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.star-title-container {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.title-name {
+  color: #171f46;
+  margin: 0px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-right: 10px;
+}
+.star-button {
+  padding: 0px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+.star-img {
+  width: 20px;
+}
+.date {
+  color: #b5b7c4;
+  margin: 0px;
+  font-size: 13px;
+  font-weight: 500;
+}
+.delete-img {
+  width: 18px;
+}
+.delete-btn {
+  width: 20px;
+  padding: 0px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-left: auto;
+  margin-top: 10px;
+}
